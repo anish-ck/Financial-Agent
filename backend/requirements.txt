@@ -1,0 +1,40 @@
+# Core Backend
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+
+# Database
+sqlalchemy>=2.0.23
+psycopg2-binary>=2.9.9
+alembic>=1.12.1
+
+# WebSockets
+websockets>=12.0
+python-socketio>=5.10.0
+
+# Google ADK and Vertex AI
+google-genai>=1.0.0
+google-cloud-aiplatform>=1.38.0
+
+# Model Context Protocol
+mcp>=0.9.0
+httpx>=0.25.0
+
+# Financial Data
+yfinance>=0.2.32
+pandas>=2.1.0
+numpy>=1.24.0
+
+# Charts & PDF
+matplotlib>=3.8.0
+plotly>=5.18.0
+fpdf2>=2.7.6
+
+# Sentiment
+textblob>=0.17.1
+vaderSentiment>=3.3.2
+
+# Utils
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
